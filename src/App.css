@@ -1,26 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #24305e;
+  color: #f76c51;
+  font-family: 'Source Code Pro', monospace;
+  font-size: large;
+  letter-spacing: .2em;
 }
 
-.App-link {
-  color: #61dafb;
+.Experience {
+  background-color: #f76c6c;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.Content {
+  margin-top: 7em;
+}
+
+.body-color:last-child {
+  background-color: #A8D0E6;
+  font-family: 'Karla', sans-serif;
+  font-size: large;
+}
+
+.header-color:first-child {
+  background-color: #F8E9A1;
+  font-family: 'Rokkitt', serif;
+  font-size: x-large;
+}
+
+.body-color {
+  background-color: #A8D0E6;
+  font-family: 'Karla', sans-serif;
+  font-size: large;
+}
+
+.header-color {
+  background-color: #F8E9A1;
+  font-family: 'Rokkitt', serif;
+  font-size: x-large;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +46,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.exp-img {
+  height: 50%;
+}
+
+hr {
+  background-color: #f76c6c;
+}
+
+#information {
+  font-weight: normal;
+  text-transform: none;
+  color: #b5b5b7;
+
+}
+
+.language {
+  max-height: 70px;
 }
