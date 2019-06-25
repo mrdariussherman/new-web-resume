@@ -15,7 +15,7 @@ export class Organzations extends React.Component {
                             that advance computing as a science and a profession. ACM provides the computing field's
                             premier Digital Library and serves its members and the computing profession with
                             leading-edge publications, conferences, and career resources. <br/>
-                            <small><a href="http://www.acm.org/">From ACM</a></small>
+                            <small><a href="http://www.acm.org/">from ACM</a></small>
                         </div>
                     </div>
                     <hr/>
