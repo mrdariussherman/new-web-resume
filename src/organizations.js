@@ -5,7 +5,7 @@ export class Organzations extends React.Component {
         return (
             <div className="container p-0 mt-4">
                 <div className="card-header rounded header-color">
-                    organizaions
+                    organizations
                 </div>
                 <div className="card-body body-color">
                     <div className="row text-center align-content-center">
