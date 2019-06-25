@@ -10,7 +10,7 @@ import * as Languages from './languages'
 export class Resume extends React.Component {
     render() {
         return(
-          <div className="container-fluid text-center align-content-center mb-5">
+          <div className="container-fluid text-center align-content-center mb-4">
               <div className="row align-content-center text-center">
                   <div className="col">
                       <Header.Header/>

@@ -3,7 +3,7 @@ import React from 'react'
 export class Education extends React.Component {
     render() {
         return (
-            <div className="card border-0 rounded body-color mt-5">
+            <div className="card border-0 rounded body-color mt-4">
                 <div className="card-header header-color">
                     education
                 </div>

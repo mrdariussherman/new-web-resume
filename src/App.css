@@ -2,7 +2,7 @@
   background-color: #24305e;
   color: #f76c51;
   font-family: 'Source Code Pro', monospace;
-  font-size: large;
+  font-size: small;
   letter-spacing: .2em;
 }
 
@@ -12,31 +12,31 @@
 }
 
 .Content {
-  margin-top: 7em;
+  margin-top: 2em;
 }
 
 .body-color:last-child {
   background-color: #A8D0E6;
   font-family: 'Karla', sans-serif;
-  font-size: large;
+  font-size: small;
 }
 
 .header-color:first-child {
   background-color: #F8E9A1;
   font-family: 'Rokkitt', serif;
-  font-size: x-large;
+  font-size: medium;
 }
 
 .body-color {
   background-color: #A8D0E6;
   font-family: 'Karla', sans-serif;
-  font-size: large;
+  font-size: small;
 }
 
 .header-color {
   background-color: #F8E9A1;
   font-family: 'Rokkitt', serif;
-  font-size: x-large;
+  font-size: medium;
 }
 
 @keyframes App-logo-spin {
@@ -64,5 +64,5 @@ hr {
 }
 
 .language {
-  max-height: 70px;
+  max-height: 40px;
 }
