@@ -5,58 +5,52 @@ import * as EDC from './edc'
 import * as Education from "./education";
 import * as Experience from "./experience";
 import * as Organizations from './organizations';
-import * as Languages from './languages'
+import * as Languages from './languages';
+import * as Footer from './footer';
 
 export class Resume extends React.Component {
     render() {
         return(
-          <div className="container-fluid text-center align-content-center mb-4">
-              <div className="row align-content-center text-center">
-                  <div className="col">
+          <div className="container text-center">
+              <div className="row sticky-top">
+                  <div className="col align-self-center">
                       <Header.Header/>
                   </div>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col">
+              <div className="row justify-content-center">
+                  <div className="col-8 align-self-center">
                       <EDC.EDC/>
                   </div>
-                  <div className="col-2"/>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col-8">
+              <div className="row justify-content-center">
+                  <div className="col-8 align-self-center">
                       <About.About/>
                   </div>
-                  <div className="col-2"/>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col-8">
+              <div className="row justify-content-center">
+                  <div className="col-8 align-self-center">
                       <Education.Education/>
                   </div>
-                  <div className="col-2"/>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col-8">
+              <div className="row justify-content-center">
+                  <div className="col-8 align-self-center">
                       <Experience.Experience/>
                   </div>
-                  <div className="col-2"/>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col-8">
+              <div className="row justify-content-center">
+                  <div className="col-8 align-self-center">
                       <Organizations.Organzations/>
                   </div>
-                  <div className="col-2"/>
               </div>
-              <div className="row align-content-center text-center">
-                  <div className="col-2"/>
-                  <div className="col-8">
+              <div className="row justify-content-center mb-5 pb-3">
+                  <div className="col-8 align-self-center">
                       <Languages.Languages/>
                   </div>
-                  <div className="col-2"/>
+              </div>
+              <div className="row">
+                  <div className="col">
+                      <Footer.Footer/>
+                  </div>
               </div>
           </div>
         );

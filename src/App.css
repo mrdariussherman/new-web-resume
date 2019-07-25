@@ -6,6 +6,21 @@
   letter-spacing: .2em;
 }
 
+.App-footer {
+    background-color: #24305e;
+    color: #f76c51;
+    font-family: 'Source Code Pro', monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    right: 100%;
+}
+
+a span{
+  color: #f76c51;
+}
+
 .Experience {
   background-color: #f76c6c;
   font-family: 'Source Code Pro', monospace;
