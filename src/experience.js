@@ -7,6 +7,31 @@ export class Experience extends React.Component {
                 <div className="card-header header-color">experience</div>
                 <div className="card-body body-color">
                     <div>
+                        <b>ibm</b> <br/>
+                        gtm product manager, worldwide ecosystem <br/>
+                        <small>january 2021 - present</small> <br/>
+                        In my current role with IBM, I cover all software offerings and work with key strategic partners
+                        on their go-to-market strategy. To do this, we analyze market and deal closing trends to ensure
+                        that product placement and positioning is accurate for target markets. When an audience/buyer is
+                        defined, we create experiences from activations to webinars alike to create leads and push for
+                        closes.
+                    </div>
+                    <hr/>
+                    <div>
+                        <b>ibm</b> <br/>
+                        technical product manager intern <br/>
+                        <small>june 2020 - august 2020</small> <br/>
+                        As a Technical Product Manager Intern at IBM, I was responsible for a host of activities that
+                        aligned with the role of a product manager. For the technical portion of the internship, I was
+                        responsible for defining and overseeing feature development for an intern dev team. To
+                        do this, I created: user personas, stories, timelines, requirements, and defined acceptance
+                        criteria. All of this work wrapped into a product requirement document (PRD). In addition, to
+                        that I oversaw their scrum meetings, managed any blockers, and hosted Q&A sessions. To gain
+                        business/client facing product experience, I worked with clients to ensure renewal of their S&S
+                        subscriptions.
+                    </div>
+                    <hr/>
+                    <div>
                         <b>hewlett packard enterprise</b> <br/>
                         software engineer intern <br/>
                         <small>may 2019 - august 2019</small> <br/>

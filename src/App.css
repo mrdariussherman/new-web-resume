@@ -1,15 +1,15 @@
 .App-header {
   background-color: #24305e;
-  color: #f76c51;
-  font-family: 'Source Code Pro', monospace;
+  color: #FFFFFF;
+  font-family: 'Avenir Next', monospace;
   font-size: small;
   letter-spacing: .2em;
 }
 
 .App-footer {
     background-color: #24305e;
-    color: #f76c51;
-    font-family: 'Source Code Pro', monospace;
+    color: #FFFFFF;
+    font-family: 'Avenir Next', monospace;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -18,64 +18,32 @@
 }
 
 a span{
-  color: #f76c51;
-}
-
-.Experience {
-  background-color: #f76c6c;
-  font-family: 'Source Code Pro', monospace;
+  color: #FFFFFF;
 }
 
 .Content {
   margin-top: 2em;
 }
 
-.body-color:last-child {
-  background-color: #A8D0E6;
-  font-family: 'Karla', sans-serif;
-  font-size: small;
-}
-
 .header-color:first-child {
-  background-color: #F8E9A1;
-  font-family: 'Rokkitt', serif;
+  background-color: #FFB81C;
+  font-family: 'Avenir Next', serif;
   font-size: medium;
 }
 
 .body-color {
-  background-color: #A8D0E6;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   font-size: small;
 }
 
 .header-color {
-  background-color: #F8E9A1;
-  font-family: 'Rokkitt', serif;
+  background-color: #FFB81C;
+  font-family: 'Avenir Next', serif;
   font-size: medium;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.exp-img {
-  height: 50%;
-}
-
 hr {
-  background-color: #f76c6c;
-}
-
-#information {
-  font-weight: normal;
-  text-transform: none;
-  color: #b5b5b7;
-
+  background-color: #FFFFFF;
 }
 
 .language {
