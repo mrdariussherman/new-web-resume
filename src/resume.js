@@ -14,45 +14,58 @@ export class Resume extends React.Component {
         return(
           <div className="container text-center">
               <div className="row sticky-top">
-                  <div className="col align-self-center">
+                  <div className="col">
                       <Header.Header/>
                   </div>
               </div>
+
               <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
+                  <div className="col-10">
                       <EDC.EDC/>
                   </div>
               </div>
+
+
               <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
-                      <About.About/>
+                  <div className="col">
+                      <div>
+                          <About.About/>
+                      </div>
+                  </div>
+                  <div className="col">
+                      <div>
+                          <Education.Education/>
+                      </div>
                   </div>
               </div>
+
+
+
               <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
+                  <div className="col">
                       <Experience.Experience/>
                   </div>
               </div>
+
+
               <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
-                      <Education.Education/>
-                  </div>
-              </div>
-              <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
+                  <div className="col">
                       <Leadership.Leadership/>
                   </div>
               </div>
+
               <div className="row justify-content-center">
-                  <div className="col-8 align-self-center">
+                  <div className="col">
                       <Organizations.Organzations/>
                   </div>
               </div>
+
               <div className="row justify-content-center mb-5 pb-3">
-                  <div className="col-8 align-self-center">
+                  <div className="col">
                       <Languages.Languages/>
                   </div>
               </div>
+
               <div className="row">
                   <div className="col">
                       <Footer.Footer/>

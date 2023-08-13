@@ -6,7 +6,7 @@ import Helmet from "react-helmet";
 
 function App() {
   return (
-    <div className="container-fluid App">
+    <div className="container">
         <Helmet bodyAttributes={{style: 'background-color : #E6E6E6E6;'}}/>
         <Resume.Resume/>
     </div>

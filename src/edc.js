@@ -5,7 +5,7 @@ export class EDC extends React.Component {
     render() {
         return(
             <div className="container-fluid">
-                <img className="img-fluid pt-5" alt="Essentials" src={pic}/>
+                <img className="card-img-top pt-5" alt="Essentials" src={pic}/>
             </div>
         );
     }
