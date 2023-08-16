@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {TerminalContextProvider} from "react-terminal";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <TerminalContextProvider>
+        <App/>
+    </TerminalContextProvider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
