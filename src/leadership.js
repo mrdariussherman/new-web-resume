@@ -7,19 +7,19 @@ export class Leadership extends React.Component {
                 <div className="card-header header-color">leadership</div>
                 <div className="card-body body-color">
                     <div>
-                        <b>Park at Wellspoint Homeowner Association</b> <br/>
-                        Board Member & Treasurer <br/>
-                        <small>january 2021 - present</small> <br/>
-                        Ensuring community’s success and image by maintaining assets, solving issues, and leading
-                        improvement projects
-                    </div>
-                    <hr/>
-                    <div>
                         <b>Excellence and Advancement Foundation</b> <br/>
                         Board Member & Marketing Chair <br/>
                         <small>june 2021 - present</small> <br/>
                         Aid in steering of marketing activities/events including outreach, fundraising, programing, and
                         branding promoting expected program retention
+                    </div>
+                    <hr/>
+                    <div>
+                        <b>Park at Wellspoint Homeowner Association</b> <br/>
+                        Board Member & Treasurer <br/>
+                        <small>january 2021 - present</small> <br/>
+                        Ensuring community’s success and image by maintaining assets, solving issues, and leading
+                        improvement projects
                     </div>
                     <hr/>
                     <div>

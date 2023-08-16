@@ -28,13 +28,15 @@ export class Landing extends React.Component{
             ls: "what would you like to list: education, experience, languages, leadership, organizations",
             education: "Darius has a BSCS from Baylor University with focuses in Software Engineering and Cyber " +
                 "Security",
-            experience: "Darius has worked for: ibm, hpe, cbord, and the research institute at bswh",
-            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, president of " +
-                "theta tau in undergrad, and windows and policy lead of the baylor competitive cyber security team",
+            experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at BSWH",
+            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, was president of " +
+                "Theta Tau, Mu Epsilon, and Windows and Policy lead of the Baylor Competitive Cyber Security Team",
             organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
             languages: "Darius is fluent in english, java, javascript, c++, c, assembly, html, css, python, and sql. " +
                 "He also knows a little french",
-            enter: this.props.handleState
+            games: "you got games on yo' phone?",
+            dariussy: "are you sure we are close enough for that?",
+            enter: this.props["handleState"]
         };
 
 
