@@ -15,14 +15,37 @@ export class Landing extends React.Component{
     render() {
 
         const commands = {
+            hello: "hi! how are you?",
             whoami: "how should i know?",
             exit: "now why would you want to do that?",
-            help: "try the command 'view'",
+            help: "try the command 'enter'",
             benny: "do you know benny? i do!",
             color: "dark green",
             school: "baylor u",
-            view: this.props.handleState
+            about: "you'll learn all about darius once you're inside the site",
+            cd: "what do you wanna listen to?",
+            hack: "BE GONE HACKER!",
+            ls: "what would you like to list: education, experience, languages, leadership, organizations",
+            education: "Darius has a BSCS from Baylor University with focuses in Software Engineering and Cyber " +
+                "Security",
+            experience: "Darius has worked for: ibm, hpe, cbord, and the research institute at bswh",
+            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, president of " +
+                "theta tau in undergrad, and windows and policy lead of the baylor competitive cyber security team",
+            organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
+            languages: "Darius is fluent in english, java, javascript, c++, c, assembly, html, css, python, and sql. " +
+                "He also knows a little french",
+            enter: this.props.handleState
         };
+
+
+        const theme = {
+            dariussy: {
+                themeBGColor: "#24305e",
+                themeToolbarColor: "#DBDBDB",
+                themeColor: "#FFFEFC",
+                themePromptColor: "#FFB81C"
+            },
+        }
 
         return (
             <div className="container">
@@ -32,9 +55,10 @@ export class Landing extends React.Component{
                     alignItems:'center', height: '100vh'}}>
                     <div className="col-6 terminal">
                         <ReactTerminal commands={commands}
-                                       welcomeMessage={"welcome "}
                                        errorMessage="Invalid command!"
-                                       prompt={"$root >"}
+                                       prompt={"$root %"}
+                                       themes={theme}
+                                       theme="dariussy"
                         />
                     </div>
                 </div>
