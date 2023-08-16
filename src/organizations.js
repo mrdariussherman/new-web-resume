@@ -29,15 +29,6 @@ export class Organzations extends React.Component {
                     </div>
                     <hr/>
                     <div>
-                        <b>Women in Computer Science (WICS)</b> <br/>
-                        The Women in Computer Science Club (WICS) will promote computer science skills, and provide
-                        a supportive environment for all women to join. The goal of the club is to engage female
-                        students of computer science and non-computer science majors in STEM-based projects with a
-                        major focus on computer science. <br/>
-                        <small><a href="https://view2.fdu.edu/">from FDU academics</a></small>
-                    </div>
-                    <hr/>
-                    <div>
                         <b>National Society of Black Engineers (NSBE)</b> <br/>
                         The National Society of Black Engineers (NSBE) is one of the largest student-governed
                         organizations based in the United States. NSBE, founded in 1975, supports and promotes the
@@ -51,6 +42,15 @@ export class Organzations extends React.Component {
                         Computing for Compassion is a Baylor ECS student organization whose mission is to use our
                         technical gifts to aid those in need.
                         <br/>
+                    </div>
+                    <hr/>
+                    <div>
+                        <b>Women in Computer Science (WICS)</b> <br/>
+                        The Women in Computer Science Club (WICS) will promote computer science skills, and provide
+                        a supportive environment for all women to join. The goal of the club is to engage female
+                        students of computer science and non-computer science majors in STEM-based projects with a
+                        major focus on computer science. <br/>
+                        <small><a href="https://view2.fdu.edu/">from FDU academics</a></small>
                     </div>
                 </div>
             </div>
