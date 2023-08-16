@@ -14,7 +14,7 @@ import sql from '././assets/mysql.png'
 export class Languages extends React.Component {
     render() {
         return (
-            <div className="card border-0 body-color mt-4">
+            <div className="card body-color mt-4">
                 <div className="card-header header-color text-center">
                     languages and frameworks
                 </div>

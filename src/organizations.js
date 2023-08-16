@@ -3,7 +3,7 @@ import React from 'react'
 export class Organzations extends React.Component {
     render(){
         return (
-            <div className="card border-0 rounded body-color mt-4">
+            <div className="card rounded body-color mt-4">
                 <div className="card-header header-color">
                     organizations
                 </div>
@@ -43,7 +43,7 @@ export class Organzations extends React.Component {
                         organizations based in the United States. NSBE, founded in 1975, supports and promotes the
                         aspirations of collegiate and pre-collegiate students and technical professionals in engineering
                         and technology. <br/>
-                        <small><a href="https://www.nsbe.org/about-us">from ACM</a></small>
+                        <small><a href="https://www.nsbe.org/about-us">from NSBE</a></small>
                     </div>
                     <hr/>
                     <div>

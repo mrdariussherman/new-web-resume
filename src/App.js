@@ -6,16 +6,22 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Helmet from "react-helmet";
 
 export class App extends React.Component{
-    constructor() {
-        super();
-        this.state = {start: false};
+    constructor(props) {
+        super(props);
+        this.state = {start: true};
+        this.stateHandler = this.stateHandler.bind(this);
     }
+
+    stateHandler() {
+        this.setState({start: false});
+    }
+
     render() {
-        if (this.state.start === false) {
+        if (this.state.start === true) {
             return (
                 <div className="container">
                     <Helmet/>
-                    <Landing.Landing/>
+                    <Landing.Landing handleState={this.stateHandler}/>
                 </div>
             );
         } else {
