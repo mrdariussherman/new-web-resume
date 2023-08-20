@@ -7,21 +7,28 @@ import {Footer} from "./footer";
 import {ReactTerminal} from "react-terminal";
 
 export class Landing extends React.Component{
-    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
-        // { handleState } = props
+        this.state = {
+            commandKeys: [
+                'site', ' exit', " help", " school", " about", " cd", " ls", " education", " experience",
+                " leadership", " organizations", " languages", " enter"
+            ]
+        }
     }
-    render() {
 
+    render() {
         const commands = {
             hello: "hi! how are you?",
+            hi: "hello! how can i help you?",
+            site: "this website was built by darius using reactjs and it hosted using github pages",
             whoami: "how should i know?",
             exit: "now why would you want to do that?",
-            help: "try the command 'enter'",
+            help: "Commands include: " + this.state['commandKeys'].toString() + ". " +
+                "There are also some hidden commands to be found!",
             benny: "do you know benny? i do!",
-            color: "dark green",
-            school: "baylor u",
+            color: "my favorite color is dark green",
+            school: "darius completed undergrad at baylor university! SIC 'EM BEARS",
             about: "you'll learn all about darius once you're inside the site",
             cd: "what do you wanna listen to?",
             hack: "BE GONE HACKER!",
@@ -39,7 +46,6 @@ export class Landing extends React.Component{
             enter: this.props["handleState"]
         };
 
-
         const theme = {
             dariussy: {
                 themeBGColor: "#24305e",
@@ -50,20 +56,18 @@ export class Landing extends React.Component{
         }
 
         return (
-            <div className="container">
+            <div className="container align-middle">
                 <Helmet/>
                 <Header/>
-                <div className="row align-content-center" style={{display: 'flex',  justifyContent:'center',
-                    alignItems:'center', height: '100vh'}}>
-                    <div className="col-6 terminal">
-                        <ReactTerminal commands={commands}
-                                       errorMessage="Invalid command!"
-                                       prompt={"$root %"}
-                                       themes={theme}
-                                       theme="dariussy"
-                        />
-                    </div>
+                <div className="terminal">
+                    <ReactTerminal commands={commands}
+                                   errorMessage="Invalid command! For a list of commands try 'help'"
+                                   prompt={"$root %"}
+                                   themes={theme}
+                                   theme="dariussy"
+                    />
                 </div>
+                <button className=" enter btn btn-primary" onClick={this.props["handleState"]}>Mom, I'm scared!</button>
                 <Footer/>
             </div>
         );

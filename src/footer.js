@@ -5,7 +5,7 @@ export class Footer extends React.Component {
     render() {
         return(
             <footer className="App-footer align-items-center">
-                <div className="py-1 align-middle text-center">
+                <div className="py-3 align-middle text-center">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/mrdariussherman">
                         <span className="fab fa-2x fa-twitter mr-4"/>
                     </a>
