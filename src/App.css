@@ -76,3 +76,8 @@ hr {
     /* bring your own prefixes */
     transform: translate(-50%, 150px);
 }
+
+
+.btn {
+    font-family: 'Avenir Next', monospace;
+}

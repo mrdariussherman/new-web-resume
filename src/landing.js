@@ -71,7 +71,9 @@ export class Landing extends React.Component{
                         />
                     </div>
                 </div>
-                <button className=" enter btn btn-primary" onClick={this.props["handleState"]}>Mom, I'm scared!</button>
+                <button className="enter btn btn-default"
+                        style={{backgroundColor: '#24305e', color: '#FFFFFF', boxShadow: 'none', fontFamily: 'Avenir Next' }}
+                        onClick={this.props["handleState"]}>mom, i'm scared</button>
                 <Footer/>
             </div>
         );
