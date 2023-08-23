@@ -28,16 +28,18 @@ export class Landing extends React.Component{
                 "There are also some hidden commands to be found!",
             benny: "do you know benny? i do!",
             color: "my favorite color is dark green",
-            school: "darius completed undergrad at baylor university! SIC 'EM BEARS",
+            school: "Darius completed undergrad at Baylor University! SIC 'EM BEARS",
             about: "you'll learn all about darius once you're inside the site",
             cd: "what do you wanna listen to?",
             hack: "BE GONE HACKER!",
-            ls: "what would you like to list: education, experience, languages, leadership, organizations",
-            education: "Darius has a BSCS from Baylor University with focuses in Software Engineering and Cyber " +
-                "Security",
-            experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at BSWH",
-            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, was president of " +
-                "Theta Tau, Mu Epsilon, and Windows and Policy lead of the Baylor Competitive Cyber Security Team",
+            ls: "What would you like to list: education, experience, languages, leadership, or organizations?",
+            education: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
+                "Engineering and Cyber Security",
+            experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at " +
+                "BSWH",
+            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, was president of the Mu" +
+                "Epsilon chapter of Theta Tau, and Windows and Policy lead of the Baylor Competitive Cyber Security " +
+                "Team",
             organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
             languages: "Darius is fluent in english, java, javascript, c++, c, assembly, html, css, python, and sql. " +
                 "He also knows a little french",
@@ -59,13 +61,15 @@ export class Landing extends React.Component{
             <div className="container align-middle">
                 <Helmet/>
                 <Header/>
-                <div className="terminal">
-                    <ReactTerminal commands={commands}
-                                   errorMessage="Invalid command! For a list of commands try 'help'"
-                                   prompt={"$root %"}
-                                   themes={theme}
-                                   theme="dariussy"
-                    />
+                <div className="col-5">
+                    <div className="terminal">
+                        <ReactTerminal commands={commands}
+                                       errorMessage="Invalid command! For a list of commands try 'help'"
+                                       prompt={"$root %"}
+                                       themes={theme}
+                                       theme="dariussy"
+                        />
+                    </div>
                 </div>
                 <button className=" enter btn btn-primary" onClick={this.props["handleState"]}>Mom, I'm scared!</button>
                 <Footer/>
