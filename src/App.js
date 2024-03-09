@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Resume from './resume.js';
-import * as Landing from './landing';
+import * as Landing from './layout/landing';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Helmet from "react-helmet";

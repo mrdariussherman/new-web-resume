@@ -1,13 +1,13 @@
 import React from 'react';
-import * as Header from './header'
-import * as About from './about'
-import * as EDC from './edc'
-import * as Education from "./education";
-import * as Experience from "./experience";
-import * as Leadership from './leadership';
-import * as Organizations from './organizations';
-import * as Languages from './languages';
-import * as Footer from './footer';
+import * as Header from './layout/header'
+import * as About from './content/about'
+import * as EDC from './layout/edc'
+import * as Education from "./content/education";
+import * as Experience from "./content/experience";
+import * as Leadership from './content/leadership';
+import * as Organizations from './content/organizations';
+import * as Languages from './content/languages';
+import * as Footer from './layout/footer';
 
 export class Resume extends React.Component {
     render() {
