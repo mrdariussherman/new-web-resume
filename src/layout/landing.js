@@ -18,22 +18,8 @@ export class Landing extends React.Component{
     }
 
     render() {
-        const commands = {
-            hello: "hi! how are you?",
-            hi: "hello! how can i help you?",
-            site: "this website was built by darius using reactjs and it hosted using github pages",
-            whoami: "how should i know?",
-            exit: "now why would you want to do that?",
-            help: "Commands include: " + this.state['commandKeys'].toString() + ". " +
-                "There are also some hidden commands to be found!",
-            benny: "do you know benny? i do!",
-            color: "my favorite color is dark green",
-            school: "Darius completed undergrad at Baylor University! SIC 'EM BEARS",
-            about: "you'll learn all about darius once you're inside the site",
-            cd: "what do you wanna listen to?",
-            hack: "BE GONE HACKER!",
-            ls: "What would you like to list: education, experience, languages, leadership, or organizations?",
-            lseducation: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
+        const ls_data = {
+            education: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
                 "Engineering and Cyber Security",
             experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at " +
                 "BSWH",
@@ -43,6 +29,23 @@ export class Landing extends React.Component{
             organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
             languages: "Darius is fluent in english, java, javascript, c++, c, assembly, html, css, python, and sql. " +
                 "He also knows a little french",
+        }
+        const commands = {
+            hello: "hi! how are you?",
+            hi: "hello! how can i help you?",
+            site: "this website was built by darius using reactjs and it hosted using github pages",
+            whoami: "how should i know?",
+            exit: "now why would you want to do that?",
+            help: "commands include: " + this.state['commandKeys'].toString() + ". " +
+                "there are also some hidden commands to be found!",
+            benny: "do you know benny? i do!",
+            color: "my favorite color is dark green",
+            school: "darius completed undergrad at Baylor University! SIC 'EM BEARS",
+            about: "you'll learn all about darius once you're inside the site",
+            cdT: "what do you wanna listen to?",
+            ls: (directory) => directory ? `${ls_data[directory.toString()]}` : "what would you like to list: " +
+                "education, experience, languages, leadership, or organizations?",
+            hack: "BE GONE HACKER!",
             games: "you got games on yo' phone?",
             dariussy: "are you sure we are close enough for that?",
             enter: this.props["handleState"]
