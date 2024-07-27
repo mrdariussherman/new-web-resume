@@ -10,12 +10,12 @@ export class Experience extends React.Component {
                         <b>IBM</b> <br/>
                         isv success manager <br/>
                         <small>january 2021 - july 2024</small> <br/>
-                        As an ISV Success Manager at IBM, I covered all software offerings and work with key strategic partners
-                        on their go-to-market strategy. To do this, I analyzed market and deal progression trends to ensure
-                        that product placement and positioning is accurate for target markets. When an audience/buyer is
-                        defined, we create experiences from activations to webinars alike for leads generation and deal
-                        progression. In addition, I worked with net new business partners to generate new new use cases
-                        generally in security and AI domains.
+                        As an ISV Success Manager at IBM, I covered all software offerings and worked with key strategic
+                        partners on their go-to-market strategy. To do this, I analyzed market and deal progression
+                        trends to ensure that product placement and positioning is accurate for target markets. When an
+                        audience/buyer was defined, we created various experiences from activations to webinars for
+                        lead generation and deal progression. In addition, I worked with net new business partners in
+                        security and AI primarily to generate 0-1 use cases.
                     </div>
                     <hr/>
                     <div>
@@ -36,14 +36,14 @@ export class Experience extends React.Component {
                         <b>Hewlett Packard Enterprise</b> <br/>
                         software engineer <br/>
                         <small>may 2019 - august 2019</small> <br/>
-                        While with HPE, I created an internal web tool for the automatic generation of defect
-                        reports. This tool was built using Python (logic and API), PostgreSQL (backend/database)
-                        and React. While building the tool, I followed the Agile methodology. During this project,
-                        I strengthened my skills in self-starting, Agile methodology, scripting, documentation,
-                        teamwork, web development (UI/UX), prioritization, code refactoring, VMs, cyber security
-                        and working with a PO, PM and team of developers. This tool will have a huge impact on
-                        productivity as it will save Scrum Masters countless hours because each report (generated
-                        on a weekly and sometimes daily basis) previously took an hour or more to produce.
+                        As a Software Engineer Intern with HPE, I created an internal web tool for the automatic
+                        generation of defect reports. This tool was built using Python (logic and API), PostgreSQL
+                        (backend/database) and React. While building the tool, I followed the Agile methodology.
+                        During this project, I strengthened my skills in self-starting, Agile methodology, scripting,
+                        documentation, teamwork, web development (UI/UX), prioritization, code refactoring, VMs, cyber
+                        security and working with a PO, PM and team of developers. This tool will have a huge impact on
+                        productivity as it will save Scrum Masters countless hours because each report (generated on a
+                        weekly and sometimes daily basis) previously took an hour or more to produce.
                     </div>
                     <hr/>
                     <div>
