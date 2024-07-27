@@ -8,18 +8,19 @@ export class Experience extends React.Component {
                 <div className="card-body body-color">
                     <div>
                         <b>IBM</b> <br/>
-                        isv success manager, worldwide ecosystem <br/>
-                        <small>january 2021 - present</small> <br/>
-                        In my current role with IBM, I cover all software offerings and work with key strategic partners
-                        on their go-to-market strategy. To do this, we analyze market and deal closing trends to ensure
+                        isv success manager <br/>
+                        <small>january 2021 - july 2024</small> <br/>
+                        As an ISV Success Manager at IBM, I covered all software offerings and work with key strategic partners
+                        on their go-to-market strategy. To do this, I analyzed market and deal progression trends to ensure
                         that product placement and positioning is accurate for target markets. When an audience/buyer is
                         defined, we create experiences from activations to webinars alike for leads generation and deal
-                        progression.
+                        progression. In addition, I worked with net new business partners to generate new new use cases
+                        generally in security and AI domains.
                     </div>
                     <hr/>
                     <div>
                         <b>IBM</b> <br/>
-                        technical product manager intern <br/>
+                        technical product manager <br/>
                         <small>june 2020 - august 2020</small> <br/>
                         As a Technical Product Manager Intern at IBM, I was responsible for a host of activities that
                         aligned with the role of a product manager. For the technical portion of the internship, I was
@@ -33,7 +34,7 @@ export class Experience extends React.Component {
                     <hr/>
                     <div>
                         <b>Hewlett Packard Enterprise</b> <br/>
-                        software engineer intern <br/>
+                        software engineer <br/>
                         <small>may 2019 - august 2019</small> <br/>
                         While with HPE, I created an internal web tool for the automatic generation of defect
                         reports. This tool was built using Python (logic and API), PostgreSQL (backend/database)
@@ -47,7 +48,7 @@ export class Experience extends React.Component {
                     <hr/>
                     <div>
                         <b>cbord</b> <br/>
-                        software engineer intern <br/>
+                        software engineer <br/>
                         <small>may 2018 - present</small> <br/>
                         As a Software Engineer Intern, I primarily assist the development team with tasks such as
                         planning, implementation and testing of software. My first project was working to bring new
@@ -58,7 +59,7 @@ export class Experience extends React.Component {
                     <hr/>
                     <div className="col">
                         <b>Research Institute</b> @ <b>Baylor Scott & White Health</b> <br/>
-                        simulation software intern<br/>
+                        software engineer intern<br/>
                         <small>may 2017 - august 2017</small> <br/>
 
                         As a Simulation Software Intern, I was primarily in charge of developing simulation

@@ -33,7 +33,7 @@ export class Landing extends React.Component{
             cd: "what do you wanna listen to?",
             hack: "BE GONE HACKER!",
             ls: "What would you like to list: education, experience, languages, leadership, or organizations?",
-            education: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
+            lseducation: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
                 "Engineering and Cyber Security",
             experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at " +
                 "BSWH",
@@ -73,7 +73,7 @@ export class Landing extends React.Component{
                 </div>
                 <button className="enter btn btn-default"
                         style={{backgroundColor: '#24305e', color: '#FFFFFF', boxShadow: 'none', fontFamily: 'Avenir Next' }}
-                        onClick={this.props["handleState"]}>mom, i'm scared</button>
+                        onClick={this.props["handleState"]}>show me the site</button>
                 <Footer/>
             </div>
         );

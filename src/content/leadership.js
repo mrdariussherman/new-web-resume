@@ -4,10 +4,10 @@ export class Leadership extends React.Component {
     render() {
         return (
             <div className="card rounded body-color mt-4">
-                <div className="card-header header-color">leadership</div>
+                <div className="card-header header-color">additional experiences</div>
                 <div className="card-body body-color">
                     <div>
-                        <b>Excellence and Advancement Foundation</b> <br/>
+                        <b>Excellence Project</b> <br/>
                         board member & marketing chair <br/>
                         <small>june 2021 - present</small> <br/>
                         Aid in steering of marketing activities/events including outreach, fundraising, programing, and
@@ -15,8 +15,8 @@ export class Leadership extends React.Component {
                     </div>
                     <hr/>
                     <div>
-                        <b>Park at Wellspoint Homeowner Association</b> <br/>
-                        board member & treasurer <br/>
+                        <b>Park at Wellspoint</b> <br/>
+                        board member & president <br/>
                         <small>january 2021 - present</small> <br/>
                         Ensuring community’s success and image by maintaining assets, solving issues, and leading
                         improvement projects
@@ -25,7 +25,7 @@ export class Leadership extends React.Component {
                     <div>
                         <b>IBM</b> <br/>
                         austin black brg design & communications officer <br/>
-                        <small>january 2024 - present</small> <br/>
+                        <small>january 2024 - july 2024</small> <br/>
                         Coordinate with our programming and service chairs to design event flyers and market to BRG
                         members by creating inciting Slack and email communications promoting event registration and
                         reminding registered attendees
@@ -33,18 +33,10 @@ export class Leadership extends React.Component {
                     <hr/>
                     <div>
                         <b>IBM</b> <br/>
-                        intern site lead <br/>
-                        <small>may 2023 - august 2023</small> <br/>
-                        Onboarded 84 site interns and planned 6 offsite and 2 onsite networking events to build
-                        community and promote healthy corporate relationships + Served as a mentor and site expert
-                        throughout their time with IBM
-                    </div>
-                    <hr/>
-                    <div>
-                        <b>IBM</b> <br/>
                         intern site supervisor <br/>
-                        <small>may 2024 - august 2024</small> <br/>
-                        Experience loading...
+                        <small>summer 2023, summer 2024</small> <br/>
+                        Onboarded close to 100 interns, planned on and offsite events, managed a team of 5, and budget to
+                        ensure the intern experience was productive and fun.
                     </div>
                     <hr/>
                     <div>

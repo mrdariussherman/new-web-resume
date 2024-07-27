@@ -3,7 +3,7 @@ import React from 'react'
 export class Education extends React.Component {
     render() {
         return (
-            <div className="card rounded body-color">
+            <div className="card rounded body-color mt-4">
                 <div className="card-header header-color">education</div>
                 <div className="card-body">
                     <b>Baylor University</b> <br/>

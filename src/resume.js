@@ -28,18 +28,15 @@ export class Resume extends React.Component {
 
               <div className="row justify-content-center">
                   <div className="col">
-                      <div>
-                          <About.About/>
-                      </div>
-                  </div>
-                  <div className="col">
-                      <div>
-                          <Education.Education/>
-                      </div>
+                      <About.About/>
                   </div>
               </div>
 
-
+              <div className="row justify-content-center">
+                  <div className="col">
+                      <Education.Education/>
+                  </div>
+              </div>
 
               <div className="row justify-content-center">
                   <div className="col">
