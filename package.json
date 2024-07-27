@@ -7,6 +7,7 @@
     "bootstrap": "*",
     "bootstrap-icons": "^1.11.3",
     "codegen": "*",
+    "dangerously-set-html-content": "^1.1.0",
     "gh-pages": "*",
     "jquery": "*",
     "popper.js": "*",

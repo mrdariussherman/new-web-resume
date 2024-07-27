@@ -1,6 +1,6 @@
 import React from 'react'
 
-export class Core_expertise extends React.Component {
+export class CoreExpertise extends React.Component {
     render() {
         return (
             <div className="card rounded body-color mt-4">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export class Additional_experiences extends React.Component {
+export class AdditionalExperiences extends React.Component {
     render() {
         return (
             <div className="card rounded body-color mt-4">

@@ -4,8 +4,9 @@ import * as About from './content/about'
 import * as EDC from './layout/edc'
 import * as Education from "./content/education";
 import * as Experience from "./content/experience";
-import * as CoreExpertise from "./content/core_expertise";
-import * as Leadership from './content/additional_experiences';
+import * as Badges from "./content/badges";
+import * as CoreExpertise from "./content/coreExpertise";
+import * as Leadership from './content/additionalExperiences';
 import * as Organizations from './content/organizations';
 import * as Languages from './content/languages';
 import * as Footer from './layout/footer';
@@ -60,20 +61,26 @@ export class Resume extends React.Component {
 
               <div className="row justify-content-center">
                   <div className="col">
+                      <Badges.Badges/>
+                  </div>
+              </div>
+
+              <div className="row justify-content-center">
+                  <div className="col">
                       <Experience.Experience/>
                   </div>
               </div>
 
-
               <div className="row justify-content-center">
                   <div className="col">
-                      <Leadership.Additional_experiences/>
+                      <Leadership.AdditionalExperiences/>
                   </div>
               </div>
 
+
               <div className="row justify-content-center">
                   <div className="col">
-                      <CoreExpertise.Core_expertise/>
+                      <CoreExpertise.CoreExpertise/>
                   </div>
               </div>
 
