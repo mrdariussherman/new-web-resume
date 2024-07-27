@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9fc62a3b.css",
-    "main.js": "/static/js/main.63c54018.js",
+    "main.js": "/static/js/main.42a84d9a.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/css.png": "/static/media/css.9b9dcc2d8eeecbdee2f6.png",
     "static/media/edc.png": "/static/media/edc.80dd47114f5cb94d3435.png",
+    "static/media/Darius Sherman Resume.pdf": "/static/media/Darius Sherman Resume.a1e61a63535959f0dc6e.pdf",
     "static/media/bootstrap.png": "/static/media/bootstrap.31308e1f971117056887.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/mysql.png": "/static/media/mysql.5abe7b253ecabe614140.png",
@@ -19,10 +20,10 @@
     "static/media/react.svg": "/static/media/react.1dcb2be6ca9216ad9d387aae4e43b718.svg",
     "index.html": "/index.html",
     "main.9fc62a3b.css.map": "/static/css/main.9fc62a3b.css.map",
-    "main.63c54018.js.map": "/static/js/main.63c54018.js.map"
+    "main.42a84d9a.js.map": "/static/js/main.42a84d9a.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc62a3b.css",
-    "static/js/main.63c54018.js"
+    "static/js/main.42a84d9a.js"
   ]
 }
