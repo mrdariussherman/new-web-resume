@@ -4,6 +4,7 @@ import * as About from './content/about'
 import * as EDC from './layout/edc'
 import * as Education from "./content/education";
 import * as Experience from "./content/experience";
+import * as CoreExpertise from "./content/core_expertise";
 import * as Leadership from './content/additional_experiences';
 import * as Organizations from './content/organizations';
 import * as Languages from './content/languages';
@@ -67,6 +68,12 @@ export class Resume extends React.Component {
               <div className="row justify-content-center">
                   <div className="col">
                       <Leadership.Additional_experiences/>
+                  </div>
+              </div>
+
+              <div className="row justify-content-center">
+                  <div className="col">
+                      <CoreExpertise.Core_expertise/>
                   </div>
               </div>
 
