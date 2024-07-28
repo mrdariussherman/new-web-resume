@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Resume from './resume.js';
+import * as Resume from './resume.jsx';
 import * as Landing from './layout/landing';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
