@@ -70,8 +70,8 @@ export class Landing extends React.Component{
             <div className="container align-middle">
                 <Helmet/>
                 <Header/>
-                <div className="col-5 mb-3">
-                    <div className="terminal mb-3">
+                <div className="col-5">
+                    <div className="terminal">
                         <ReactTerminal commands={commands}
                                        errorMessage="Invalid command! For a list of commands try 'help'"
                                        prompt={"$root@darius.dev %"}
