@@ -81,7 +81,7 @@ export class Landing extends React.Component{
                         />
                     </div>
                 </div>
-                <button className="enter btn btn-default"
+                <button className="enter btn btn-default mt-2"
                         style={{backgroundColor: '#24305e', color: '#FFFFFF', boxShadow: 'none',
                             fontFamily: 'Avenir Next' }}
                         onClick={this.props["handleState"]}>show me the site</button>
