@@ -23,7 +23,7 @@ export class Landing extends React.Component{
                 "Engineering and Cyber Security",
             experience: "Darius has worked for: IBM, Hewlett Packard Enterprise, CBORD, and the Research Institute at " +
                 "BSWH",
-            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, was president of the Mu" +
+            leadership: "Darius currently serves on 2 boards, acted as an intern site lead, was president of the Mu " +
                 "Epsilon chapter of Theta Tau, and Windows and Policy lead of the Baylor Competitive Cyber Security " +
                 "Team",
             organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
