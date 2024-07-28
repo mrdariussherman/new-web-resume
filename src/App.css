@@ -1,9 +1,10 @@
 .App-header {
-  background-color: #24305e;
-  color: #FFFFFF;
-  font-family: 'Avenir Next', monospace;
-  font-size: small;
-  letter-spacing: .2em;
+    background-color: #24305e;
+    color: #FFFFFF;
+    font-family: 'Avenir Next', monospace;
+    font-size: small;
+    letter-spacing: .2em;
+    pointer-events: none;
 }
 
 .App-footer {
