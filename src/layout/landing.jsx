@@ -11,13 +11,12 @@ export class Landing extends React.Component{
         super(props);
         this.state = {
             commandKeys: [
-                'site', ' exit', " help", " school", " about", " cd", " ls", " education", " experience",
-                " leadership", " organizations", " languages", " enter"
+                'site', ' exit', " help", " school", " about", " cd", " ls", " and enter"
             ]
         }
     }
 
-    render() {
+    get_text(props){
         const ls_data = {
             education: "Darius has a B.S. in Computer Science from Baylor University with focuses in Software " +
                 "Engineering and Cyber Security",
@@ -28,29 +27,13 @@ export class Landing extends React.Component{
                 "Team",
             organizations: "Darius is or has been a member of Theta Tau, ACM, NSBE, Computing 4 Compassion, and WiCS",
             languages: "Darius is fluent in english, java, javascript, c++, c, assembly, html, css, python, and sql. " +
-                "He also knows a little french",
+                "He also knows a little french"
         }
-        const commands = {
-            hello: "hi! how are you?",
-            hi: "hello! how can i help you?",
-            site: "this website was built by darius using reactjs and it hosted using github pages",
-            whoami: "how should i know?",
-            exit: "now why would you want to do that?",
-            help: "commands include: " + this.state['commandKeys'].toString() + ". " +
-                "there are also some hidden commands to be found!",
-            benny: "do you know benny? i do!",
-            color: "my favorite color is dark green",
-            school: "darius completed undergrad at Baylor University! SIC 'EM BEARS",
-            about: "you'll learn all about darius once you're inside the site",
-            cdT: "what do you wanna listen to?",
-            ls: (directory) => directory ? `${ls_data[directory.toString()]}` : "what would you like to list: " +
-                "education, experience, languages, leadership, or organizations?",
-            hack: "BE GONE HACKER!",
-            games: "you got games on yo' phone?",
-            dariussy: "are you sure we are close enough for that?",
-            enter: this.props["handleState"]
-        };
 
+        return ls_data[props] ? ls_data[props] : "Access denied";
+    }
+
+    render() {
         const theme = {
             dariussy: {
                 themeBGColor: "#24305e",
@@ -60,6 +43,29 @@ export class Landing extends React.Component{
             },
         }
 
+        const commands = {
+            hello: "hi! how are you?",
+            hi: "hello! how can i help you?",
+            site: "this website was built by darius using reactjs and it is hosted using github pages",
+            whoami: "how should i know?",
+            exit: "now why would you want to do that?",
+            help: "commands include: " + this.state['commandKeys'].toString() + ". " +
+                "there are also some ~hidden~ commands to be found!",
+            benny: "do you know benny? i do!",
+            color: "my favorite color is dark green",
+            school: "darius completed undergrad at Baylor University! SIC 'EM BEARS",
+            about: "you'll learn all about darius once you're inside the site",
+            cd: "what do you wanna listen to?",
+            ls: (directory) => directory ? `${this.get_text(directory.toString())}` : "what would you like to list: " +
+                "education, experience, languages, leadership, or organizations?",
+            hack: "BE GONE HACKER!",
+            games: "you got games on yo' phone?",
+            dariussy: "are you sure we are close enough for that?",
+            sudo: "Clever, but not clever enough.",
+            su: "Clever, but not clever enough.",
+            enter: this.props["handleState"]
+        };
+
         return (
             <div className="container align-middle">
                 <Helmet/>
@@ -68,14 +74,16 @@ export class Landing extends React.Component{
                     <div className="terminal">
                         <ReactTerminal commands={commands}
                                        errorMessage="Invalid command! For a list of commands try 'help'"
-                                       prompt={"$root %"}
+                                       prompt={"$root@darius.dev %"}
                                        themes={theme}
                                        theme="dariussy"
+                                       welcomeMessage={"Hi! Lost? Try \"help\"! \n"}
                         />
                     </div>
                 </div>
                 <button className="enter btn btn-default"
-                        style={{backgroundColor: '#24305e', color: '#FFFFFF', boxShadow: 'none', fontFamily: 'Avenir Next' }}
+                        style={{backgroundColor: '#24305e', color: '#FFFFFF', boxShadow: 'none',
+                            fontFamily: 'Avenir Next' }}
                         onClick={this.props["handleState"]}>show me the site</button>
                 <Footer/>
             </div>

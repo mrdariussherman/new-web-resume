@@ -2,7 +2,7 @@
     background-color: #24305e;
     color: #FFFFFF;
     font-family: 'Avenir Next', monospace;
-    font-size: small;
+    font-size: medium;
     letter-spacing: .2em;
     pointer-events: none;
 }
@@ -34,7 +34,7 @@ a span{
 
 .body-color {
   font-family: 'Avenir Next', sans-serif;
-  font-size: small;
+  font-size: medium;
 }
 
 .header-color {
