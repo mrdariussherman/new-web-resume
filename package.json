@@ -10,6 +10,7 @@
     "dangerously-set-html-content": "^1.1.0",
     "gh-pages": "*",
     "jquery": "*",
+    "js-yaml": "^4.1.0",
     "popper.js": "*",
     "react": "*1",
     "react-dom": "*",
@@ -19,7 +20,7 @@
     "react-scripts": "*",
     "react-social-icons": "*",
     "react-social-media-bar": "*",
-    "react-terminal": "*",
+    "react-terminal": "^1.4.4",
     "typescript": "*"
   },
   "scripts": {
