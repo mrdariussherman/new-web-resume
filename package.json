@@ -2,7 +2,7 @@
   "name": "new-web-resume",
   "version": "5.2.0",
   "private": true,
-  "homepage": "mrdariussherman.githib.io/new-web-resume",
+  "homepage": "https://darius.dev",
   "dependencies": {
     "bootstrap": "*",
     "bootstrap-icons": "^1.11.3",
