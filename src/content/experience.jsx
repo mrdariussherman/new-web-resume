@@ -8,7 +8,7 @@ export class Experience extends React.Component {
                 <div className="card-body body-color">
                     <div>
                         <b>IBM</b> <br/>
-                        isv success manager <br/>
+                        product manager <br/>
                         <small>january 2021 - july 2024</small> <br/>
                         As an ISV Success Manager at IBM, I covered all software offerings and worked with key strategic
                         partners on their go-to-market strategy. To do this, I analyzed market and deal progression
